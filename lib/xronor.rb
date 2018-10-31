@@ -1,4 +1,6 @@
-require "aws-sdk-core"
+require "aws-sdk-cloudwatchevents"
+require "aws-sdk-dynamodb"
+require "aws-sdk-lambda"
 require "active_support/core_ext/time"
 require "chronic"
 require "erb"

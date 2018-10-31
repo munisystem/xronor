@@ -22,7 +22,9 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "activesupport", "~> 5.0.2"
-  spec.add_dependency "aws-sdk", "~> 2.8.7"
+  spec.add_dependency "aws-sdk-cloudwatchevents", "~> 1.10"
+  spec.add_dependency "aws-sdk-dynamodb", "~> 1.15"
+  spec.add_dependency "aws-sdk-lambda", "~> 1.13"
   spec.add_dependency "chronic", "~> 0.10"
   spec.add_dependency "thor", "~> 0.19"
 
